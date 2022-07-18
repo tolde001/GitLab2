@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+test {
+    ignoreFailures = true
+    useJUnitPlatform()
+}
